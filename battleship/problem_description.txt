@@ -1,0 +1,34 @@
+Coding Exercise
+
+Thanks for taking on this coding task. I hope to get a feel for your software engineering skills, especially around code organization, problem solving, testing and lifecycle.
+
+Take a few hours and code this up and then we will meet and you can demo what you have. While we’re meeting I’ll challenge you with some real-time requirement changes and together we will work through them.
+
+Acceptable implementation choices would be Go, Java, Java Script, Python, or Ruby.
+
+Please create an implementation of the game ‘Battleship’. Your version of the game has these requirements:
+
+2 Players
+Each player has a 5x5 board
+Players will be given 3 ships that are 3 units long and 1 unit wide
+Ships can only be oriented vertically
+The game should take as arguments two arrays of integers representing the ship placement on each player’s board. Each entry in the array will represent the vertical coordinate of the top of a ship with ­–1 representing an empty column (e.g. [ ­–1 1 2 1 ­–1] would represent 3 ships forming a V shape).
+Players will take turns choosing coordinates to attack
+The result of an attack can be one of:
+
+A ‘Hit’ if the opponent has a ship covering the coordinate
+A ‘Miss’ if there is no ship covering the coordinate
+‘Already Taken’ if the coordinate has previously been attacked
+‘Sunk’ if all coordinates a ship covers have been hit
+‘Win’ if all ships on the opponent’s board have been sunk
+The game ends when all of a player’s ships have been sunk.
+
+What we are looking for
+
+Correctness ­- Demo that you have met the requirements?
+What software design principles did you use?
+How did you model the problem? Why?
+Simplicity
+Familiarity with the language, framework, and toolset that you use
+Algorithm analysis ­- what is the time complexity and memory complexity of the solution?
+
